@@ -13,7 +13,7 @@ import org.specs2.mutable.Specification
 class FileOverwriterSpec extends Specification {
   val targetDir = "./target"
 
-  "FileOverwriterSpec" should {
+  "FileOverwriter" should {
     "silently ignore attempts to write null data" in {
       FileOverwriter.apply(targetDir, "should-not-be-created").writeBytes(null).should(not(throwA[NullPointerException]))
     }
