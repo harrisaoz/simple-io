@@ -10,7 +10,7 @@ import java.net.URL;
 /**
  * Created by Anthony on 14/05/2015.
  */
-public class FileInClasspathToInputStream implements Function<String, InputStream> {
+public class FileInClasspathToInputStream implements Function<String, InputStream, IOException> {
     public InputStream apply(String filename) throws IOException {
         URL fileResource = getClass().getClassLoader().getResource(filename);
         if (fileResource == null) {
