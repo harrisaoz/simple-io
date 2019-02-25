@@ -7,17 +7,17 @@
     <parent>
         <groupId>au.id.ah</groupId>
         <artifactId>scala-project-parent-pom</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <artifactId>simple-io</artifactId>
-    <version>${simple-io.version}</version>
+    <version>1.0</version>
 
     <dependencies>
         <dependency>
             <groupId>au.id.ah</groupId>
             <artifactId>exceptional-functionals</artifactId>
-            <version>${exceptional-functionals.version}</version>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
