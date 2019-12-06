@@ -1,6 +1,6 @@
 package au.id.ah.sio;
 
-import au.id.ah.function.Function;
+import au.id.ah.efunc.Function;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
